@@ -1,12 +1,11 @@
 import React from "react"
 
-import Header from "../components/header"
 import Layout from "../components/layout"
 
 export default function Contact() {
   return (
     <Layout>
-      <Header headerText="Contact" />
+      <h1>Contact</h1>
       <p>Send us a message!</p>
     </Layout>
   )
