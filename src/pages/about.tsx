@@ -1,14 +1,13 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Header from "../components/header"
+import Layout from "../components/layout"
 
 export default function About() {
   return (
-    <div style={{ color: `teal` }}>
-      <Link to="/">Home</Link>
+    <Layout>
       <Header headerText="About Gatsby" />
       <p>Such wow. Very React.</p>
-    </div>
+    </Layout>
   )
 }
